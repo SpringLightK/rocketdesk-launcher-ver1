@@ -1,0 +1,22 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境（如果有）
+venv/
+.env/
+.venv/
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+
+# 日志
+*.log
+
+# 本地配置缓存（按需）
+app_launcher/config/*.npz
+
+# 大模型目录：不上传到 GitHub
+app_launcher/models/
