@@ -47,7 +47,7 @@ class FloatingLauncher(QtWidgets.QWidget):
         # 初始化界面控件
         self._init_ui()
         # 创建托盘图标
-        #self._init_tray()
+        self._init_tray()
     """
     def _init_ui(self):
         #初始化悬浮窗界面

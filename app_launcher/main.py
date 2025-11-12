@@ -76,9 +76,9 @@ def main():
     win.show()
 
     # 创建托盘图标（AppTrayIcon 内部已经设置好图标和菜单）
-    tray = AppTrayIcon()
-    tray.show()          # 没这句托盘不会显示
-    app.tray = tray      # 保存引用，防止被 GC 回收
+    #tray = AppTrayIcon()
+    #tray.show()          # 没这句托盘不会显示
+    #app.tray = tray      # 保存引用，防止被 GC 回收
 
     # 关闭最后一个窗口时，不自动退出（托盘还在）
     app.setQuitOnLastWindowClosed(False)
